@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  background: #92bdf9;
+  color: #222;
+}   
+
+header {
+  background: #1941ba;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+article {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.meta {
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #002366;
+}
+
+.code-box {
+  background: #f3f3ff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  color: #040404;
+}
+
+.share {
+  margin-top: 10px;
+}
+
+.share button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.fb {
+  background: #1877f2;
+}
+
+.x {
+  background: black;
+}
+
+.link {
+  background: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+  margin-top: 30px;
+}
